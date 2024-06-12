@@ -10,6 +10,7 @@ class Member (
     password: String,
     role: Role
 ) : AuditingEntity(){
+
     @Column(name = "email", nullable = false)
     var email: String = email
         protected set
